@@ -1,0 +1,29 @@
+{
+  "name": "gh-markdown-viewer",
+  "version": "1.0.0",
+  "description": "Basic markdown viewer that integrates with github api to seach markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "author": "Vincent de Gois",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-markdown": "^4.1.0",
+    "react-simple-tree-menu": "^1.1.4",
+    "react-syntax-highlighter": "^11.0.2",
+    "storybook": "^1.0.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
+    "babel-loader": "^8.0.6"
+  }
+}
